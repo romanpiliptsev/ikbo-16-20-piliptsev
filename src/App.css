@@ -1,49 +1,85 @@
 :root {
-  --black: #222222;
-  --white: #E5E5E5;
-  --gray: #5D5D5D;
-  --blue: #142536;
+    --black: #222222;
+    --white: #E5E5E5;
+    --gray: #5D5D5D;
+    --blue: #142536;
 }
 
 html {
-  font-family: sans-serif;
+    font-family: sans-serif;
 }
 
 .container {
-  margin: 0 auto;
-  width: 1140px;
+    margin: 0 auto;
+    width: 1140px;
 }
 
 .header {
-  height: 100px;
-  background-color: var(--blue);
-  display: flex;
-  align-items: center;
+    height: 100px;
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
 }
 
 .header__box {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav {
-  display: flex;
+    display: flex;
 }
 
 .nav__link {
-  color: whitesmoke;
-  padding: 18px;
-  margin: 15px;
+    color: whitesmoke;
+    padding: 18px;
+    margin: 15px;
 }
 
 .nav__link:hover {
-  background-color: #236da6;
+    background-color: #236da6;
 }
 
 .main__title {
-  color: var(--black);
+    color: var(--black);
 }
 
 .main__text {
-  color: var(--gray);
+    color: var(--gray);
 }
+
+/* update button */
+
+.btn__wrap {
+    padding: 20px;
+}
+
+.btn {
+    background-color: lightgray;
+    border: none;
+
+}
+
+.shadow__btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    background: #ff0000;
+    box-shadow: 0 0 25px rgb(255, 140, 0);
+}
+
+.shadow__btn:hover {
+    box-shadow: 0 0 5px rgb(255, 140, 0),
+    0 0 25px rgb(255, 140, 0),
+    0 0 50px rgb(255, 140, 0),
+    0 0 100px rgb(255, 140, 0);
+}
+
+/* /update button */

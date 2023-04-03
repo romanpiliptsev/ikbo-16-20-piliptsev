@@ -6,6 +6,7 @@ const AppNav = () => {
             <Link className="nav__link" to={"/"}>Главная</Link>
             <Link className="nav__link" to={"/profile"}>Профиль</Link>
             <Link className="nav__link" to={"/chat"}>Чат</Link>
+            <Link className="nav__link" to={"/toggle"}>SwitchBox</Link>
         </nav>
     )
 }
